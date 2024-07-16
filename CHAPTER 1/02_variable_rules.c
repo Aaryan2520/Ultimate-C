@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
+    /*
+    
     int a; // Allowed
     int b; // Allowed
     int c; // Allowed
@@ -12,6 +14,7 @@ int main(){
     int harry(())good;  //Not Allowed
     int harry_good; // Allowed
 
+    */
 
     return 0;
 }
