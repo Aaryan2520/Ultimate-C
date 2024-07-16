@@ -1,0 +1,69 @@
+Escape sequences in C language are special characters used within strings and character literals to represent certain special characters that would otherwise be difficult or impossible to include directly. They always begin with a backslash (`\`). Here are some of the commonly used escape sequences in C:
+
+1. `\n` - Newline
+   - Inserts a newline character into the string.
+   - Example: `printf("Hello\nWorld");` outputs:
+     ```
+     Hello
+     World
+     ```
+
+2. `\t` - Horizontal Tab
+   - Inserts a tab space.
+   - Example: `printf("Hello\tWorld");` outputs:
+     ```
+     Hello   World
+     ```
+
+3. `\\` - Backslash
+   - Inserts a backslash character.
+   - Example: `printf("C:\\Program Files");` outputs:
+     ```
+     C:\Program Files
+     ```
+
+4. `\"` - Double Quote
+   - Inserts a double quote character.
+   - Example: `printf("She said, \"Hello\"");` outputs:
+     ```
+     She said, "Hello"
+     ```
+
+5. `\'` - Single Quote
+   - Inserts a single quote character.
+   - Example: `printf("It\'s a nice day");` outputs:
+     ```
+     It's a nice day
+     ```
+
+6. `\a` - Alert (Bell)
+   - Produces an audible or visible alert.
+   - Example: `printf("\a");` might produce a beep sound (depending on the system).
+
+7. `\b` - Backspace
+   - Moves the cursor one position back.
+   - Example: `printf("Hello\b\bWorld");` outputs:
+     ```
+     HelWorld
+     ```
+
+8. `\r` - Carriage Return
+   - Moves the cursor to the beginning of the line.
+   - Example: `printf("Hello\rWorld");` outputs:
+     ```
+     World
+     ```
+
+9. `\f` - Form Feed
+   - Advances the cursor to the next page (not commonly used in modern systems).
+   - Example: `printf("Hello\fWorld");`
+
+10. `\v` - Vertical Tab
+    - Moves the cursor to the next vertical tab stop.
+    - Example: `printf("Hello\vWorld");`
+
+11. `\0` - Null Character
+    - Represents the end of a string.
+    - Example: Used internally in strings to denote the end, e.g., `char str[] = "Hello\0World";`.
+
+Escape sequences are essential in C programming for handling text formatting and special characters within strings and character literals.
