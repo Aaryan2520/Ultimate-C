@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     /*
-    
+
     int a; // Allowed
     int b; // Allowed
     int c; // Allowed
