@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int a;
-    scanf("%d",&a);
-    printf("The value of a is %d",a);
+    scanf("%d", &a);
+    printf("The value of a is %d", a);
 
     return 0;
 }
